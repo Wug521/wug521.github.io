@@ -1,2 +1,2 @@
-# wug521.github.io
+# wug521 blog
 ...

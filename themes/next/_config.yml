@@ -45,8 +45,8 @@ cache:
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /images/favicon-16x16-next.png
-  medium: /images/favicon-32x32-next.png
+  small: https://s3.ax1x.com/2020/12/18/rJr4AK.png
+  medium: https://s3.ax1x.com/2020/12/18/rJr4AK.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
@@ -218,6 +218,11 @@ toc:
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 #creative_commons: by-nc-sa
 #creative_commons:
+creative_commons:
+  Available: by-nc-sa
+  sidebar: false
+  post: true  # 将false改为true即可显示版权信息
+    
 
 sidebar:
   # Sidebar Position, available value: left | right (only for Pisces | Gemini).
